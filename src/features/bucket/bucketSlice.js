@@ -1,7 +1,7 @@
 import { createSlice, createAsyncThunk } from "@reduxjs/toolkit";
 import axios from "axios";
 
-const URL = "http://localhost:4000";
+const URL = "https://wee-meet.eastasia.cloudapp.azure.com";
 
 export const fetchAllBuckets = createAsyncThunk(
     "bucket/get",
